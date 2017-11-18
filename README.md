@@ -30,5 +30,11 @@ private void ShowCustomNotification() {
 #### Bind custom functionality to notifications
 ![alt text](https://github.com/Link-SD/InternshipDemo/blob/master/Documentation/Easy_Bind_Functionality.png "Bind functionality")
 
+#### Easily extendable
+By creating a new class inherited by ```Notification```, you can create a new Notification. When attached to a prefab with the same name as the created class, simply call:
+``` c#
+NotificationManager.ShowNotification<YOUR_NOTIFICATION_TYPE>(key);
+```
+
 #### Classes
 ![alt text](https://github.com/Link-SD/InternshipDemo/blob/master/Documentation/NotificationSystem_InheritenceGraph.png "Class diagram")
