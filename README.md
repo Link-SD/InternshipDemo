@@ -6,7 +6,7 @@ I have created a notification system for Unity3d which can generate custom notif
 ### Two different setups
 Implementation 1 has less control over the setup of the generated notifications, but is easier to maintain as everything is set inside the ```NotificationManager``` class.
 
-With implementation 2 a programmer has control over each individual notification class and how it is created. This is done by moving the creating method to the ```Notification``` class itself and abstracting it to it's children.
+With implementation 2 a programmer has control over each individual notification class and how it is created. This is done by moving the creating method to the ```Notification``` class itself and abstracting it to its children.
 
 ### Features
 
